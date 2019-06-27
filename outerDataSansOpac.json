@@ -8,7 +8,7 @@
     "color": "rgb(4,0,214)"
   },
   {
-    "order": 2,
+    "order": 1,
     "id": "PRO1.2",
     "max": 200,
     "weight": 0.083335,
@@ -16,7 +16,7 @@
     "color": "rgb(4,7,214)"
   },
   {
-    "order": 3,
+    "order": 1,
     "id": "PRO1.3",
     "max": 200,
     "weight": 0.183337
@@ -25,7 +25,7 @@
     "color": "rgb(3,26,214)"
   },
   {
-    "order": 4,
+    "order": 1,
     "id": "PRO1.4",
     "max": 200,
     "weight": 0.033333
@@ -34,7 +34,7 @@
     "color": "rgb(3,55,214)"
   },
   {
-    "order": 5,
+    "order": 1,
     "id": "PRO1.5",
     "max": 200,
     "weight": 0.044444
@@ -43,7 +43,7 @@
     "color": "rgb(2,89,214)"
   },
   {
-    "order": 6,
+    "order": 1,
     "id": "PRO2.1",
     "max": 200,
     "weight": 0.088888
@@ -52,7 +52,7 @@
     "color": "rgb(1,122,214)"
   },
   {
-    "order": 7,
+    "order": 1,
     "id": "PRO2.2",
     "max": 200,
     "weight": 0.116669
@@ -61,7 +61,7 @@
     "color": "rgb(0,150,214)"
   },
   {
-    "order": 8,
+    "order": 2,
     "id": "ENV1.1",
     "max": 600,
     "weight": 0.4725
@@ -70,7 +70,7 @@
     "color": "rgb(0,167,214)"
   },
   {
-    "order": 9,
+    "order": 2,
     "id": "ENV1.2",
     "max": 100,
     "weight": 0.03375,
@@ -78,7 +78,7 @@
     "color": "rgb(1,171,213)"
   },
   {
-    "order": 10,
+    "order": 2,
     "id": "ENV1.3",
     "max": 200,
     "weight": 0.045
@@ -87,7 +87,7 @@
     "color": "rgb(37,183,183)"
   },
   {
-    "order": 11,
+    "order": 2,
     "id": "ENV2.1",
     "max": 350,
     "weight": 0.225
@@ -96,7 +96,7 @@
     "color": "rgb(110,206,122)"
   },
   {
-    "order": 12,
+    "order": 2,
     "id": "ENV2.2",
     "max": 100,
     "weight": 0.0225,
@@ -104,7 +104,7 @@
     "color": "rgb(190,231,55)"
   },
   {
-    "order": 13,
+    "order": 2,
     "id": "ENV2.3",
     "max": 210,
     "weight": 0.1575
