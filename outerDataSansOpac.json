@@ -5,7 +5,8 @@
       "max": 200,
       "weight": 0.066668,
       "tlp": 31,
-      "color": "rgb(4,0,214)"
+      "color": "rgb(4,0,214)",
+      "domain": 1
     },
     {
       "order": 2,
@@ -13,61 +14,63 @@
       "max": 200,
       "weight": 0.083335,
       "tlp": 26,
-      "color": "rgb(4,7,214)"
+      "color": "rgb(4,7,214)",
+      "domain": 1
+
     },
     {
       "order": 3,
       "id": "PRO1.3",
       "max": 200,
-      "weight": 0.183337
-      ,
+      "weight": 0.183337,
       "tlp": 62,
-      "color": "rgb(3,26,214)"
+      "color": "rgb(3,26,214)",
+      "domain": 1
     },
     {
       "order": 4,
       "id": "PRO1.4",
       "max": 200,
-      "weight": 0.033333
-      ,
+      "weight": 0.033333,
       "tlp": 75,
-      "color": "rgb(3,55,214)"
+      "color": "rgb(3,55,214)",
+      "domain": 1
     },
     {
       "order": 5,
       "id": "PRO1.5",
       "max": 200,
-      "weight": 0.044444
-      ,
+      "weight": 0.044444,
       "tlp": 49,
-      "color": "rgb(2,89,214)"
+      "color": "rgb(2,89,214)",
+      "domain": 1
     },
     {
       "order": 6,
       "id": "PRO2.1",
       "max": 200,
-      "weight": 0.088888
-      ,
+      "weight": 0.088888, 
       "tlp": 41,
-      "color": "rgb(1,122,214)"
+      "color": "rgb(1,122,214)",
+      "domain": 1
     },
     {
       "order": 7,
       "id": "PRO2.2",
       "max": 200,
-      "weight": 0.116669
-      ,
+      "weight": 0.116669, 
       "tlp": 26,
-      "color": "rgb(0,150,214)"
+      "color": "rgb(0,150,214)",
+      "domain": 1
     },
     {
       "order": 8,
       "id": "ENV1.1",
       "max": 600,
-      "weight": 0.4725
-      ,
+      "weight": 0.4725, 
       "tlp": 54.8,
-      "color": "rgb(0,167,214)"
+      "color": "rgb(0,167,214)",
+      "domain": 2
     },
     {
       "order": 9,
@@ -75,25 +78,26 @@
       "max": 100,
       "weight": 0.03375,
       "tlp": 76,
-      "color": "rgb(1,171,213)"
+      "color": "rgb(1,171,213)",
+      "domain": 2
     },
     {
       "order": 10,
       "id": "ENV1.3",
       "max": 200,
-      "weight": 0.045
-      ,
+      "weight": 0.045, 
       "tlp": 76,
-      "color": "rgb(37,183,183)"
+      "color": "rgb(37,183,183)",
+      "domain": 2
     },
     {
       "order": 11,
       "id": "ENV2.1",
       "max": 350,
-      "weight": 0.225
-      ,
+      "weight": 0.225, 
       "tlp": 61.2,
-      "color": "rgb(110,206,122)"
+      "color": "rgb(110,206,122)",
+      "domain": 2
     },
     {
       "order": 12,
@@ -101,16 +105,17 @@
       "max": 100,
       "weight": 0.0225,
       "tlp": 77,
-      "color": "rgb(190,231,55)"
+      "color": "rgb(190,231,55)",
+      "domain": 2
     },
     {
       "order": 13,
       "id": "ENV2.3",
       "max": 210,
-      "weight": 0.1575
-      ,
+      "weight": 0.1575, 
       "tlp": 71,
-      "color": "rgb(244,248,9)"
+      "color": "rgb(244,248,9)",
+      "domain": 2
     },
     {
       "order": 14,
@@ -118,196 +123,197 @@
       "max": 100,
       "weight": 0.096428571,
       "tlp": 80.55954472,
-      "color": "rgb(255,251,0)"
+      "color": "rgb(255,251,0)",
+      "domain": 3
     },
     {
       "order": 15,
       "id": "ECO2.1",
       "max": 200,
-      "weight": 0.64286
-      ,
+      "weight": 0.64286, 
       "tlp": 54,
-      "color": "rgb(255,245,0)"
+      "color": "rgb(255,245,0)",
+      "domain": 3
     },
     {
       "order": 16,
       "id": "ECO2.2",
       "max": 200,
-      "weight": 0.450002
-      ,
+      "weight": 0.450002, 
       "tlp": 61.5,
-      "color": "rgb(255,235,0)"
+      "color": "rgb(255,235,0)",
+      "domain": 3
     },
     {
       "order": 17,
       "id": "SOC1.1",
       "max": 200,
-      "weight": 0.302883
-      ,
+      "weight": 0.302883, 
       "tlp": 26,
-      "color": "rgb(255,222,0)"
+      "color": "rgb(255,222,0)",
+      "domain": 4
     },
     {
       "order": 18,
       "id": "SOC1.2",
       "max": 200,
-      "weight": 0.077886
-      ,
+      "weight": 0.077886, 
       "tlp": 47,
-      "color": "rgb(255,210,0)"
+      "color": "rgb(255,210,0)",
+      "domain": 4
     },
     {
       "order": 19,
       "id": "SOC1.4",
       "max": 200,
-      "weight": 0.233658
-      ,
+      "weight": 0.233658, 
       "tlp": 47,
-      "color": "rgb(255,202,0)"
+      "color": "rgb(255,202,0)",
+      "domain": 4
     },
     {
       "order": 20,
       "id": "SOC1.5",
       "max": 210,
-      "weight": 0.121156
-      ,
+      "weight": 0.121156, 
       "tlp": 24,
-      "color": "rgb(255,200,0)"
+      "color": "rgb(255,200,0)",
+      "domain": 4
     },
     {
       "order": 21,
       "id": "SOC1.6",
       "max": 205,
-      "weight": 0.25962
-      ,
+      "weight": 0.25962, 
       "tlp": 56,
-      "color": "rgb(255,178,0)"
+      "color": "rgb(255,178,0)",
+      "domain": 4
     },
     {
       "order": 22,
       "id": "SOC1.7",
       "max": 200,
-      "weight": 0.051924
-      ,
+      "weight": 0.051924, 
       "tlp": 52,
-      "color": "rgb(255,129,0)"
+      "color": "rgb(255,129,0)",
+      "domain": 4
     },
     {
       "order": 23,
       "id": "SOC2.1",
       "max": 125,
-      "weight": 0.207696
-      ,
+      "weight": 0.207696, 
       "tlp": 40,
-      "color": "rgb(255,71,0)"
+      "color": "rgb(255,71,0)",
+      "domain": 4
     },
     {
       "order": 24,
       "id": "SOC2.2",
       "max": 200,
-      "weight": 0.034616
-      ,
+      "weight": 0.034616, 
       "tlp": 56,
-      "color": "rgb(255,23,0)"
+      "color": "rgb(255,23,0)",
+      "domain": 4
     },
     {
       "order": 25,
       "id": "SOC2.3",
       "max": 210,
-      "weight": 0.051924
-      ,
+      "weight": 0.051924, 
       "tlp": 36,
-      "color": "rgb(255,1,0)"
+      "color": "rgb(255,1,0)",
+      "domain": 4
     },
     {
       "order": 26,
       "id": "SOC3.1",
       "max": 420,
-      "weight": 0.25962
-      ,
+      "weight": 0.25962, 
       "tlp": 29,
-      "color": "rgb(253,0,5)"
+      "color": "rgb(253,0,5)",
+      "domain": 4
     },
     {
       "order": 27,
       "id": "SOC3.2",
       "max": 210,
-      "weight": 0.04327
-      ,
+      "weight": 0.04327, 
       "tlp": 27,
-      "color": "rgb(246,0,22)"
+      "color": "rgb(246,0,22)",
+      "domain": 4
     },
     {
       "order": 28,
       "id": "SOC3.3",
       "max": 200,
-      "weight": 0.207696
-      ,
+      "weight": 0.207696, 
       "tlp": 58,
-      "color": "rgb(235,0,50)"
+      "color": "rgb(235,0,50)",
+      "domain": 4
     },
     {
       "order": 29,
       "id": "TEC1.1",
       "max": 240,
-      "weight": 0.225001
-  ,
+      "weight": 0.225001,
       "tlp": 47,
-      "color": "rgb(220,0,87)"
+      "color": "rgb(220,0,87)",
+      "domain": 5
     },
     {
       "order": 30,
       "id": "TEC1.2",
       "max": 220,
-      "weight": 0.48214
-      ,
+      "weight": 0.48214, 
       "tlp": 69,
-      "color": "rgb(204,0,128)"
+      "color": "rgb(204,0,128)",
+      "domain": 5
     },
     {
       "order": 31,
       "id": "TEC1.3",
       "max": 200,
-      "weight": 0.225001
-      ,
+      "weight": 0.225001, 
       "tlp": 62,
-      "color": "rgb(187,0,169)"
+      "color": "rgb(187,0,169)",
+      "domain": 5
     },
     {
       "order": 32,
       "id": "TEC1.4",
       "max": 200,
-      "weight": 0.176781
-      ,
+      "weight": 0.176781, 
       "tlp": 52,
-      "color": "rgb(173,0,206)"
+      "color": "rgb(173,0,206)",
+      "domain": 5
     },
     {
       "order": 33,
       "id": "TEC1.5",
       "max": 200,
-      "weight": 0.225001
-      ,
+      "weight": 0.225001, 
       "tlp": 33,
-      "color": "rgb(161,0,234)"
+      "color": "rgb(161,0,234)",
+      "domain": 5
     },
     {
       "order": 34,
       "id": "TEC1.6",
       "max": 200,
-      "weight": 0.064284
-      ,
+      "weight": 0.064284, 
       "tlp": 36,
-      "color": "rgb(155,0,251)"
+      "color": "rgb(155,0,251)",
+      "domain": 5
     },
     {
       "order": 35,
       "id": "TEC1.7",
       "max": 220,
-      "weight": 0.096429
-      ,
+      "weight": 0.096429, 
       "tlp": 100,
-      "color": "rgb(153,0,255)"
+      "color": "rgb(153,0,255)",
+      "domain": 5
     },
     {
       "order": 36,
@@ -315,7 +321,8 @@
       "max": 100,
       "weight": 0.016071429,
       "tlp": 72,
-      "color": "rgb(153,0,255)"
+      "color": "rgb(153,0,255)",
+      "domain": 5
     },
     {
       "order": 37,
@@ -323,7 +330,8 @@
       "max": 200,
       "weight": 0,
       "tlp": 48,
-      "color": "rgb(153,0,255)"
+      "color": "rgb(153,0,255)",
+      "domain": 6
     },
     {
       "order": 38,
@@ -331,7 +339,8 @@
       "max": 200,
       "weight": 0,
       "tlp": 37,
-      "color": "rgb(153,0,255)"
+      "color": "rgb(153,0,255)",
+      "domain": 6
     },
     {
       "order": 39,
@@ -339,7 +348,8 @@
       "max": 200,
       "weight": 0,
       "tlp": 52,
-      "color": "rgb(153,0,255)"
+      "color": "rgb(153,0,255)",
+      "domain": 6
     },
     {
       "order": 40,
@@ -347,6 +357,7 @@
       "max": 220,
       "weight": 0,
       "tlp": 70,
-      "color": "rgb(153,0,255)"
+      "color": "rgb(153,0,255)",
+      "domain": 6
     }
   ]
