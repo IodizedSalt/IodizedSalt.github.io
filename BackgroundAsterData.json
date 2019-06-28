@@ -1,0 +1,23 @@
+[
+    {
+      "name": "Process",
+      "domain": "1"
+    },
+    {
+      "name": "Enviornment",
+      "domain": "2"
+    },
+    {
+      "name": "Economy",
+      "domain": "3"
+    },
+    {
+      "name": "Social",
+      "domain": "4"
+    },
+    {
+      "name": "Technique",
+      "domain": "5"
+    },
+
+  ]
