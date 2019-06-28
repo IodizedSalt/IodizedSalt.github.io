@@ -1,23 +1,23 @@
 [
     {
       "name": "Process",
-      "domain": "1"
+      "domain": "0.6166739999999999"
     },
     {
       "name": "Enviornment",
-      "domain": "2"
+      "domain": "0.9562499999999999"
     },
     {
       "name": "Economy",
-      "domain": "3"
+      "domain": "1.189290571"
     },
     {
       "name": "Social",
-      "domain": "4"
+      "domain": "1.8519489999999998"
     },
     {
       "name": "Technique",
-      "domain": "5"
+      "domain": "1.5107084290000001"
     }
 
   ]
