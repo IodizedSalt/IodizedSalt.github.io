@@ -18,6 +18,10 @@
     {
       "name": "Technique",
       "domain": "1.5107084290000001"
+    },
+    {   
+      "name": "Misc",
+      "domain": "0"
     }
 
   ]
