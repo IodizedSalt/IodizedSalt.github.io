@@ -323,41 +323,5 @@
       "tlp": 72,
       "color": "rgb(153,0,255)",
       "domain": 5
-    },
-    {
-      "order": 37,
-      "id": "SITE1.1",
-      "max": 200,
-      "weight": 0,
-      "tlp": 48,
-      "color": "rgb(153,0,255)",
-      "domain": 6
-    },
-    {
-      "order": 38,
-      "id": "SITE1.2",
-      "max": 200,
-      "weight": 0,
-      "tlp": 37,
-      "color": "rgb(153,0,255)",
-      "domain": 6
-    },
-    {
-      "order": 39,
-      "id": "SITE1.3",
-      "max": 200,
-      "weight": 0,
-      "tlp": 52,
-      "color": "rgb(153,0,255)",
-      "domain": 6
-    },
-    {
-      "order": 40,
-      "id": "SITE1.4",
-      "max": 220,
-      "weight": 0,
-      "tlp": 70,
-      "color": "rgb(153,0,255)",
-      "domain": 6
     }
   ]
