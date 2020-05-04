@@ -1,0 +1,24 @@
+.row {
+   margin: 1em 1em 1em 1em !important; 
+}
+.column{
+    margin: 1em 1em 1em 1em !important; 
+
+}
+
+#project-text{
+    padding-top: 1em;
+    padding-bottom: 5em;
+}
+
+#buttonTop > button{
+    top: 50% !important;
+}
+
+#buttonTop > .w3-display-right{
+    right: -4%;
+}
+
+#buttonTop > .w3-display-left{
+    left: -4%;
+}
