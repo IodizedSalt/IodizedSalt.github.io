@@ -5,6 +5,9 @@
     margin: 1em 1em 1em 1em !important; 
 
 }
+body{
+    background-color: #f8f9fa !important;
+}
 
 #project-text{
     padding-top: 1em;
@@ -21,4 +24,12 @@
 
 #buttonTop > .w3-display-left{
     left: -4%;
+}
+
+#mainNav .nav-link{
+    color: black !important;
+}
+
+#about{
+    background: #f8f9fa !important;
 }
