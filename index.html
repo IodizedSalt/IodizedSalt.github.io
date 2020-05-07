@@ -30,13 +30,13 @@
 
   </head>
 
-  <body id="page-top">
+  <!-- <body id="page-top"> -->
+  <body id="page-top" onload="document.body.style.opacity='1'">
     <!-- <img src="img/Dancing-cat.gif"> -->
 
     <!-- Navigation -->
-   
-    <div class="header-container">
-     <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+
+     <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
       <div class="container">
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           Menu
@@ -51,43 +51,91 @@
               <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#signup">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
             </li>
           </ul>
         </div>
       </div>
     </nav> 
-  </div>
+ 
   <div>
-    <h1 class="ml11">
-      <span class="text-wrapper">
-        <span class="line line1"></span>
-        <span class="letters">Christopher Møller</span>
-  </h1>
-  <h1 class="ml11-1">
-      <span class="text-wrapper">
-        <span class="line-1 line1-1"></span>
-        <span class="letters-1">Full Stack Developer</span>
 
-  </h1>
   </div>
 
     <!-- About Section -->
     <section id="about" class="about-section text-center">
       <div class="container">
         <div class="row">
+          <div class="col-lg-2 mx-auto">
+              <img src="./img/ClippedCirclePhoto.png"/>
+
+          </div>
           <div class="col-lg-8 mx-auto">
-            <h2 class="text-black mb-4">I am developer</h2>
-            <p class="text-black-50">I do tings
+            <h2 class="text-black mb-4">Hi, I'm Christopher </h2>
+            <p class="text-black-50">I am a software developer based in Copenhagen currently working on my bachelor thesis at the Copenhagen School of Design and Technology. Get in contact or check out some of my projects below! </p>
           </div>
         </div>
       </div>
     </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="card-deck">
+  
+            <div  class="col-md-4 mb-3 mb-md-0">
+            <a href="mailto:christopherOmoeller@gmail.com">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-envelope"></i>
+                    <h4 class="text-uppercase m-0">Email</h4>
+                  </a>
+                    <p style="padding-top: 1em;" >ChristopherOMoeller@gmail.com</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-md-4 mb-3 mb-md-0">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i class="fas fa-phone"></i>
+                  <h4 class="text-uppercase m-0">Phone</h4>
+                  <p style="padding-top: 1em;" >+45 91 64 64 68</p>
+              </div>
+            </div>
+          </div> 
+            
+            <a href="https://www.linkedin.com/in/christopher-m%C3%B8ller-595782128/" class="col-md-4 mb-3 mb-md-0">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i class="fab fa-linkedin"></i>
+                  <h4 class="text-uppercase m-0">LinkedIn</h4>
+              </div>
+            </div>
+          </a> 
+            
+          <a href="https://github.com/IodizedSalt" class="col-md-4 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fab fa-github"></i>
+                <h4 class="text-uppercase m-0">GitHub</h4>
+            </div>
+          </div>
+        </a> 
+  
+
+  
+          </div>
+        </div>
+  
+        </div>
+      </section>
+
 
     <!-- Projects Section -->
     <section id="projects" class="projects-section bg-light">
+        <h3 style="text-align: center;">My Projects</h3>
 
         <div class="row" >
+          
             <div class="w3-content w3-display-container " >
 
             <div id="buttonTop" style="position: relative;">
@@ -168,96 +216,7 @@
       </div>
 
     </section>
-<!--
-    <!- - Skills Section - ->
-    <section id="signup" class="skills-section">
-      <div class="row">
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-map-marked-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Address</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">4923 Market Street, Orlando FL</div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-envelope text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Email</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">
-                <a href="#">hello@yourdomain.com</a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4 mb-3 mb-md-0">
-          <div class="card py-4 h-100">
-            <div class="card-body text-center">
-              <i class="fas fa-mobile-alt text-primary mb-2"></i>
-              <h4 class="text-uppercase m-0">Phone</h4>
-              <hr class="my-4">
-              <div class="small text-black-50">+1 (555) 902-8832</div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!- - Contact Section - ->
-    <section class="contact-section bg-black">
-      <div class="container">
-
-          <div class="col-md-4 mb-3 mb-md-0">
-            <div class="card py-4 h-100">
-              <div class="card-body text-center">
-                <i class="fas fa-envelope text-primary mb-2"></i>
-                <h4 class="text-uppercase m-0">Email</h4>
-                <hr class="my-4">
-                <div class="small text-black-50">
-                  <a href="mailto:christopherOmoller@gmail.com">christopherOmoller@gmail.com</a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-        <div class="social d-flex justify-content-center">
-          <a href="https://www.linkedin.com/in/christopher-m%C3%B8ller-595782128/" class="mx-2">
-            <i class="fab fa-linkedin"></i>
-          </a>
-          <a href="https://github.com/IodizedSalt" class="mx-2">
-            <i class="fab fa-github"></i>
-          </a>
-        </div>
-
-      </div>
-    </section>
-
-    <!- - Footer - ->
-    <footer class="bg-black small text-center text-white-50">
-      <div class="container">
-        Copyright &copy; Christopher Møller 2018
-      </div>
-    </footer>
-
-    <!- - Bootstrap core JavaScript - ->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!- - Plugin JavaScript - ->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!- - Custom scripts for this template - ->
-    <script src="js/grayscale.min.js"></script>
-  -->
+   
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>

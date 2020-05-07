@@ -7,6 +7,9 @@
 }
 body{
     background-color: #f8f9fa !important;
+    /* opacity: 0;
+    transition: opacity 4s;
+    -webkit-transition: opacity 4s; Safari */
 }
 
 #project-text{
@@ -32,4 +35,12 @@ body{
 
 #about{
     background: #f8f9fa !important;
+}
+
+.navbar{
+    position: fixed !important;
+}
+
+.fa-phone{
+    color: #007bff !important;
 }
