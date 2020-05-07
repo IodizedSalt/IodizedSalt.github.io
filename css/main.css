@@ -37,10 +37,34 @@ body{
     background: #f8f9fa !important;
 }
 
-.navbar{
-    position: fixed !important;
-}
+
 
 .fa-phone{
     color: #007bff !important;
 }
+
+.enlarged{
+    max-width: 200em !important;
+    width: 150%;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1050px) {
+
+    #buttonTop > .w3-display-right{
+        right: -2%;
+    }
+    
+    #buttonTop > .w3-display-left{
+        left: -2%;
+    }
+  }
+  @media only screen and (min-width: 200px) and (max-width: 599px) {
+
+    #buttonTop > .w3-display-right{
+        right: -5%;
+    }
+    
+    #buttonTop > .w3-display-left{
+        left: -5%;
+    }
+  }

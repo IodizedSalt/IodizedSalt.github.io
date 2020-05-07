@@ -53,3 +53,7 @@ function showDivs3(n) {
   }
   x[slideIndex-1].style.display = "block";
 }
+function toggleSize() {
+  var element = event.target;
+  element.classList.toggle("enlarged");
+}
