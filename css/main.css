@@ -43,10 +43,11 @@ body{
     color: #007bff !important;
 }
 
-.enlarged{
-    max-width: 200em !important;
-    width: 150%;
+.enlarged {
+    max-width: 150em !important;
 }
+
+
 
 @media only screen and (min-width: 600px) and (max-width: 1050px) {
 

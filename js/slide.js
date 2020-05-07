@@ -53,7 +53,18 @@ function showDivs3(n) {
   }
   x[slideIndex-1].style.display = "block";
 }
+
+var bool = false
+
 function toggleSize() {
+  bool = !bool
   var element = event.target;
   element.classList.toggle("enlarged");
+
+  if(bool){
+    event.target.parentNode.parentNode.style.maxWidth = "150em"
+  }else{
+    event.target.parentNode.parentNode.style.maxWidth = "970px"
+  }
+
 }
