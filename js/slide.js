@@ -4,9 +4,11 @@ showDivs(slideIndex);
 
 function plusDivs(n) {
   showDivs(slideIndex += n);
+
 }
 
 function showDivs(n) {
+
   var i;
   var x = document.getElementsByClassName("mySlides");
   if (n > x.length) {slideIndex = 1}
@@ -14,6 +16,7 @@ function showDivs(n) {
   for (i = 0; i < x.length; i++) {
     x[i].style.display = "none";
   }
+  
   x[slideIndex-1].style.display = "block";
 }
 
@@ -44,6 +47,7 @@ function plusDivs3(n) {
 }
 
 function showDivs3(n) {
+
   var i;
   var x = document.getElementsByClassName("mySlides3");
   if (n > x.length) {slideIndex = 1}
@@ -67,4 +71,11 @@ function toggleSize() {
     event.target.parentNode.parentNode.style.maxWidth = "970px"
   }
 
+}
+
+function resetSize(){
+  var element = event.target;
+  element.classList.toggle("enlarged");
+
+  event.target.parentNode.parentNode.style.maxWidth = "970px"
 }
