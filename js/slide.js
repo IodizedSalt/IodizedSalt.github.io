@@ -3,6 +3,11 @@ var slideIndex = 1;
 showDivs(slideIndex);
 
 function plusDivs(n) {
+  event.target.parentNode.parentNode.classList.remove("enlarged");
+  var enlargedImage = document.getElementsByClassName("mySlides img-fluid mb-3 mb-lg-0 enlarged")[0]
+  if(enlargedImage){
+    enlargedImage.classList.remove("enlarged")
+  }  
   showDivs(slideIndex += n);
 
 }
@@ -25,6 +30,11 @@ var slideIndex = 1;
 showDivs2(slideIndex);
 
 function plusDivs2(n) {
+  event.target.parentNode.parentNode.classList.remove("enlarged");
+  var enlargedImage = document.getElementsByClassName("mySlides2 img-fluid mb-3 mb-lg-0 enlarged")[0]
+  if(enlargedImage){
+    enlargedImage.classList.remove("enlarged")
+  }  
   showDivs2(slideIndex += n);
 }
 
@@ -43,6 +53,11 @@ var slideIndex = 1;
 showDivs3(slideIndex);
 
 function plusDivs3(n) {
+  event.target.parentNode.parentNode.classList.remove("enlarged");
+  var enlargedImage = document.getElementsByClassName("mySlides3 img-fluid mb-3 mb-lg-0 enlarged")[0]
+  if(enlargedImage){
+    enlargedImage.classList.remove("enlarged")
+  }
   showDivs3(slideIndex += n);
 }
 
@@ -58,24 +73,13 @@ function showDivs3(n) {
   x[slideIndex-1].style.display = "block";
 }
 
-var bool = false
+// var bool = false
 
 function toggleSize() {
-  bool = !bool
+  // bool = !bool
   var element = event.target;
   element.classList.toggle("enlarged");
 
-  if(bool){
-    event.target.parentNode.parentNode.style.maxWidth = "150em"
-  }else{
-    event.target.parentNode.parentNode.style.maxWidth = "970px"
-  }
-
-}
-
-function resetSize(){
-  var element = event.target;
-  element.classList.toggle("enlarged");
-
-  event.target.parentNode.parentNode.style.maxWidth = "970px"
+  var parentElement = event.target.parentNode.parentNode;
+  parentElement.classList.toggle("enlarged")
 }
