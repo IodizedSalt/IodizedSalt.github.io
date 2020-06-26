@@ -73,6 +73,31 @@ function showDivs3(n) {
   x[slideIndex-1].style.display = "block";
 }
 
+
+var slideIndex = 1;
+showDivs4(slideIndex);
+
+function plusDivs4(n) {
+  event.target.parentNode.parentNode.classList.remove("enlarged");
+  var enlargedImage = document.getElementsByClassName("mySlides4 img-fluid mb-3 mb-lg-0 enlarged")[0]
+  if(enlargedImage){
+    enlargedImage.classList.remove("enlarged")
+  }
+  showDivs4(slideIndex += n);
+}
+
+function showDivs4(n) {
+
+  var i;
+  var x = document.getElementsByClassName("mySlides4");
+  if (n > x.length) {slideIndex = 1}
+  if (n < 1) {slideIndex = x.length} ;
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  x[slideIndex-1].style.display = "block";
+}
+
 // var bool = false
 
 function toggleSize() {
