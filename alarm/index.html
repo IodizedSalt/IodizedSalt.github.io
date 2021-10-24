@@ -1,5 +1,6 @@
 <section>
-    <video height="300" width="900" id="myVideo" controls autoplay>
+  <button id="unmute" >unmute</button>
+    <video height="300" width="900" id="myVideo" autoplay muted>
       <source src="../img/misc/video1.mp3 " id="mp4Source" type="audio/mpeg">
     </video>
     <script type='text/javascript'>
@@ -7,10 +8,13 @@
       var player=document.getElementById('myVideo');
       var mp4Vid = document.getElementById('mp4Source');
       player.addEventListener('ended',nextplay,false);
-      player.addEventListener('play',unmute,false);
-    
+      setTimeout(function(){ document.getElementById("unmute").click(); }, 1000);
+      // player.addEventListener('play',unmute,false);
+      document.getElementById("unmute").addEventListener("click", unmute);
+
       function nextplay(e)
       {
+        document.getElementById('clickme').click();
           if(!e) 
           {
             e = window.event; 
@@ -23,15 +27,20 @@
       }
       function unmute(e)
       {
-      console.log('oi')
+        console.log('oi')
         if(!e) 
           {
             e = window.event; 
           }
         count++;
-
-        mp4Vid.muted = !mp4Vid.muted;
-        mp4Vid.removeAttribute("muted");
+        if(player.muted == true){
+          player.muted = false;
+          }
+        else{
+          player.muted = true;
+        }
+        // player.muted = !player.muted;
+        // player.removeAttribute("muted");
       }
     
     </script>
