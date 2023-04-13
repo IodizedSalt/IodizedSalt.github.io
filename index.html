@@ -32,9 +32,243 @@
 
   <!-- <body id="page-top"> -->
   <body id="page-top" onload="document.body.style.opacity='1'">
-    <h4>Nothing to see here</h4>
-    <img src="img/Dancing-cat.gif">
+    <!-- <img src="img/Dancing-cat.gif"> -->
 
+    <!-- Navigation -->
+<!--
+     <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+      <div class="container">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fas fa-bars"></i>
+        </button>
+         
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#projects">Projects</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav> 
+         !-->
+
+  <div>
+
+  </div>
+
+    <!-- About Section -->
+    <section id="about" class="about-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2 mx-auto">
+              <img src="./img/ClippedCirclePhoto.png"/>
+
+          </div>
+          <div class="col-lg-8 mx-auto">
+            <h2 class="text-black mb-4">Hi, I'm Christopher </h2>
+            <p class="text-black-50">I am a software developer based in Copenhagen. Get in contact or check out some of my projects below! </p>
+            <a class="btn btn-light" href="./img/CV2023.pdf" style="border: 1px solid black;" target="_blank">View CV </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact" class="contact-section">
+        <div class="container">
+          <div class="card-deck">
+  
+            <div  class="col-xl-3 mb-3 mb-md-0">
+            <a href="mailto:christopherOmoeller@gmail.com">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                    <i class="fas fa-envelope"></i>
+                    <h4 class="text-uppercase m-0">Email</h4>
+                  </a>
+                    <p style="padding-top: 1em;" >ChristopherOMoeller</br>@gmail.com</p>
+                </div>
+            </div>
+          </div>
+
+          <div class="col-xl-3 mb-3 mb-md-0">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i class="fas fa-phone"></i>
+                  <h4 class="text-uppercase m-0" style=" color: #007bff;">Phone</h4>
+                  <p style="padding-top: 1em;" >+45 91 64 64 68</p>
+              </div>
+            </div>
+          </div> 
+            
+            <a href="https://www.linkedin.com/in/christopher-m%C3%B8ller-595782128/" class="col-xl-3 mb-3 mb-md-0">
+              <div class="card py-4 h-100">
+                <div class="card-body text-center">
+                  <i class="fab fa-linkedin"></i>
+                  <h4 class="text-uppercase m-0">LinkedIn</h4>
+              </div>
+            </div>
+          </a> 
+            
+          <a href="https://github.com/IodizedSalt" class="col-xl-3 mb-3 mb-md-0">
+            <div class="card py-4 h-100">
+              <div class="card-body text-center">
+                <i class="fab fa-github"></i>
+                <h4 class="text-uppercase m-0">GitHub</h4>
+            </div>
+          </div>
+        </a> 
+  
+
+  
+          </div>
+        </div>
+  
+        </div>
+      </section>
+
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section bg-light">
+        <h3 style="text-align: center;">My Projects</h3>
+
+        <div class="row" >
+          
+            <div class="w3-content w3-display-container " >
+
+            <div id="buttonTop" style="position: relative;">
+              <button class="w3-button w3-display-left"  onclick="plusDivs(-1)">&#10094;</button>
+              <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+
+              <img id="image-toggle" onclick="toggleSize()" class="mySlides img-fluid mb-3 mb-lg-0" src="https://raw.githubusercontent.com/IodizedSalt/KEARoomBooking/master/img/1.PNG">
+              <img id="image-toggle" onclick="toggleSize()" class="mySlides img-fluid mb-3 mb-lg-0" src="https://raw.githubusercontent.com/IodizedSalt/KEARoomBooking/master/img/3.PNG">
+              <img id="image-toggle" onclick="toggleSize()" class="mySlides img-fluid mb-3 mb-lg-0" src="https://raw.githubusercontent.com/IodizedSalt/KEARoomBooking/master/img/4.PNG">
+              <img id="image-toggle" onclick="toggleSize()" class="mySlides img-fluid mb-3 mb-lg-0" src="https://raw.githubusercontent.com/IodizedSalt/KEARoomBooking/master/img/5.PNG">
+              <img id="image-toggle" onclick="toggleSize()" class="mySlides img-fluid mb-3 mb-lg-0" src="https://raw.githubusercontent.com/IodizedSalt/KEARoomBooking/master/img/6.PNG">
+            </div>
+              <div class="col-xl-10 col-lg-5" id="project-text">
+                <div class="featured-text text-center text-lg-left">
+                  <h4 >KEA Room Booking</h4>
+                  <p class="text-black-50 mb-0">
+                    A room booking system made for 
+                    my university as a final project for my AP degree. Django REST and
+                    Angular.js with Bootstrap styling were used
+                    <br/>
+                    <br/>
+                    <ul>
+                      <li>Multiple types of user accounts supported, for students, teachers, and administrators</li>
+                      <li>Administrator panel to view booked rooms on a per user/campus/timeframe basis</li>
+                      <li>Administrator panel also supports statistics of most commonly booked rooms, as well as the most common timeframe of bookings.</li>
+                    </ul>
+                  </p>
+                </div>
+              </div>
+        </div>
+      </div>
+
+        <!-- Project One Row -->
+        <div class="row">
+
+         <div class="w3-content w3-display-container">
+            <div id="buttonTop" style="position: relative;">
+
+            <button class="w3-button w3-display-left" onclick="plusDivs2(-1)">&#10094;</button>
+            <button class="w3-button w3-display-right" onclick="plusDivs2(+1)">&#10095;</button>
+    
+            <img id="image-toggle" onclick="toggleSize()" class="mySlides2 img-fluid mb-3 mb-lg-0" src="https://raw.githubusercontent.com/IodizedSalt/Photo-Editor/master/img/2.PNG">
+            <img id="image-toggle" onclick="toggleSize()" class="mySlides2 img-fluid mb-3 mb-lg-0" src="https://raw.githubusercontent.com/IodizedSalt/Photo-Editor/master/img/3.PNG">
+            <img id="image-toggle" onclick="toggleSize()" class="mySlides2 img-fluid mb-3 mb-lg-0" src="https://raw.githubusercontent.com/IodizedSalt/Photo-Editor/master/img/4.PNG">
+          </div>
+
+            <div class="col-xl-10 col-lg-5" id="project-text">
+                <div class="featured-text text-center text-lg-left">
+                  <h4>Photo Editor</h4>
+                  <p class="text-black-50 mb-0">A software application built in Python using the TKinter GUI Library. Allows for basic physical and digital alterations to any .jpg or .png images with Undo/Redo and save functionality</p>
+                </div>
+              </div>
+          </div>
+        </div>
+
+        <div class="row">
+
+        <div class="w3-content w3-display-container">
+          <div id="buttonTop" style="position: relative;">
+          <button class="w3-button w3-display-left" onclick="plusDivs3(-1)">&#10094;</button>
+          <button class="w3-button w3-display-right" onclick="plusDivs3(+1)">&#10095;</button>
+        
+              <img id="image-toggle" onclick="toggleSize()" class="mySlides3 img-fluid mb-3 mb-lg-0" src="img/webshop/Screen1.PNG">
+              <img id="image-toggle" onclick="toggleSize()" class="mySlides3 img-fluid mb-3 mb-lg-0" src="img/webshop/Screen2.PNG">
+              <img id="image-toggle" onclick="toggleSize()" class="mySlides3 img-fluid mb-3 mb-lg-0" src="img/webshop/Screen3.PNG">
+              <img id="image-toggle" onclick="toggleSize()" class="mySlides3 img-fluid mb-3 mb-lg-0" src="img/webshop/Screen4.PNG">
+              <img id="image-toggle" onclick="toggleSize()" class="mySlides3 img-fluid mb-3 mb-lg-0" src="img/webshop/Screen5.PNG">
+              <img id="image-toggle" onclick="toggleSize()" class="mySlides3 img-fluid mb-3 mb-lg-0" src="img/webshop/Screen6.PNG">
+
+            </div>
+        <div class="col-xl-10 col-lg-5" id="project-text">
+            <div class="featured-text text-center text-lg-left">
+                <h4>Online WebShop</h4>
+                <p class="text-black-50 mb-0">
+                  An online webshop built for my databases course using Express.js and with BootStrap styling. Primary focus was around using Sequelize ORM to create triggers, stored procedures, and handle transactions and create an ACID compliant database.
+                  <br/>
+                  <br/>
+                  <ul>
+                    <li>Supported creation of new shop items by authorized users</li>
+                    <li>Able to handle large amounts of queries in rapid succession </li>
+                  </ul>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        
+      <div class="row">
+
+        <div class="w3-content w3-display-container">
+           <div id="buttonTop" style="position: relative;">
+
+           <button class="w3-button w3-display-left" onclick="plusDivs4(-1)">&#10094;</button>
+           <button class="w3-button w3-display-right" onclick="plusDivs4(+1)">&#10095;</button>
+   
+           <img id="image-toggle" onclick="toggleSize()" class="mySlides4 img-fluid mb-3 mb-lg-0" src="https://raw.githubusercontent.com/IodizedSalt/babite-client/master/img/Babite1.png">
+           <img id="image-toggle" onclick="toggleSize()" class="mySlides4 img-fluid mb-3 mb-lg-0" src="https://raw.githubusercontent.com/IodizedSalt/babite-client/master/img/Babite2.png">
+           <img id="image-toggle" onclick="toggleSize()" class="mySlides4 img-fluid mb-3 mb-lg-0" src="https://raw.githubusercontent.com/IodizedSalt/babite-client/master/img/Babite3.png">
+         </div>
+
+           <div class="col-xl-10 col-lg-5" id="project-text">
+               <div class="featured-text text-center text-lg-left">
+                 <h4>Babite</h4>
+                 <p class="text-black-50 mb-0">
+                   An online 'serverless' streaming platform. Allows for the creation of channels which stream videos from Youtube, and TwitchTV, similar to how traditional television has channels with scheduled programmes.
+                   <ul>
+                     <li>Primary focus of the application was to learn how to use the Amazon Serverless framework</li>
+                   </ul>
+                  </p>
+               </div>
+             </div>
+         </div>
+       </div>
+
+       <div class="row">
+
+        <!-- <div class="w3-content w3-display-container">
+            <div class="col-xl-10 col-lg-5" id="project-text">
+                <div class="featured-text text-center text-lg-left">
+                <h4>NEMID Clone</h4>
+                <p class="text-black-50 mb-0">A simple web application built for my 'System Integration' course. The primary goal was to create two servers made in two different languages (Node.js/Python Flask) which communicate with the client in different datatypes (JSON/XML) and get data from different data stores(SQLITE/TextFile)</p>
+              </div>
+            </div>
+      </div> -->
+
+
+    </section>
    
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
