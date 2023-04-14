@@ -13,7 +13,7 @@ function plusDivs(n) {
 }
 
 function showDivs(n) {
-
+  console.log('There is nothing interesting to see here, but thank you for checking anyways.')
   var i;
   var x = document.getElementsByClassName("mySlides");
   if (n > x.length) {slideIndex = 1}
