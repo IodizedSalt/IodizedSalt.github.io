@@ -12,6 +12,10 @@ function plusDivs(n) {
 
 }
 
+function iWantToSeeDancingCats(n) {
+  console.log('yet')
+  window.open('https://raw.githubusercontent.com/IodizedSalt/IodizedSalt.github.io/master/img/Dancing-cat.gif', '_blank')
+}
 function showDivs(n) {
   console.log('There is nothing interesting to see here, but thank you for checking anyways.')
   var i;
