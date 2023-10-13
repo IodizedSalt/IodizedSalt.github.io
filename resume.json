@@ -1,6 +1,6 @@
 {
     "meta": {
-        "theme": "elegant"
+        "theme": "eloquent"
     },
     "basics": {
         "name": "Christopher Møller",
@@ -33,10 +33,28 @@
     "skills": [
         {
             "keywords": [
-                "HTML / JSX",
-                "SCSS / CSS / Tailwind / Bootstrap",
+                "Node.js",
+                "Python",
+                "Django / Django REST",
+                "Flask"
+            ],
+            "level": "Senior",
+            "name": "Backend"
+        },
+        {
+            "keywords": [
+                "Rails",
+                "Serverless"
+            ],
+            "level": "Intermediate",
+            "name": "Backend"
+        },
+        {
+            "keywords": [
+                "Angular / AngularJS",
                 "Javascript / Typescript",
-                "Angular / AngularJS"
+                "HTML / JSX",
+                "SCSS / CSS / Tailwind / Bootstrap"
             ],
             "level": "Senior",
             "name": "Frontend"
@@ -54,25 +72,6 @@
             ],
             "level": "Beginner",
             "name": "Frontend"
-        },
-        
-        {
-            "keywords": [
-                "Node.js",
-                "Python",
-                "Django / Django REST",
-                "Flask"
-            ],
-            "level": "Senior",
-            "name": "Backend"
-        },
-        {
-            "keywords": [
-                "Rails",
-                "Serverless"
-            ],
-            "level": "Intermediate",
-            "name": "Backend"
         },
         {
             "keywords": [
