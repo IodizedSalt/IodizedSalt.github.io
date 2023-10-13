@@ -1,0 +1,268 @@
+{
+    "meta": {
+        "theme": "elegant"
+    },
+    "basics": {
+        "name": "Christopher Møller",
+        "label": "Full stack developer",
+        "image": "https://christophermoller.com/img/ClippedCirclePhoto.png",
+        "summary": "I am a Lithuanian/Danish full stack developer with an affinity to all things backend. However, I do enjoy frontend development as well (especially when there is a UI/UX designer providing specs! ). \n\n I currently work at the University of Copenhagen in the Center for Protein Research as an 'IT Officer'. I'm still not sure what that means, but, I help researchers, postdocs, PHD and master students with code and believe it or not, printers too! \n\n I also work on various medical web applications which collect, analyze, and output data.",
+        "website": "https://christophermoller.com",
+        "email": "ChristopherOMoeller@gmail.com",
+        "location": {
+            "city": "Copenhagen",
+            "countryCode": "DK"
+        },
+        "profiles": [
+            {
+                "url": "https://github.com/IodizedSalt",
+                "username": "iodizedsalt",
+                "network": "github"
+            }
+        ]
+    },
+    "education": [
+        {
+            "endDate": "2020-08-01",
+            "startDate": "2016-08-22",
+            "area": "Computer Science",
+            "studyType": "Bachelors",
+            "institution": "Københavns Erhvervsakademi (KEA)"
+        }
+    ],
+    "skills": [
+        {
+            "keywords": [
+                "HTML / JSX",
+                "SCSS / CSS / Tailwind / Bootstrap",
+                "Javascript / Typescript",
+                "Angular / AngularJS"
+            ],
+            "level": "Senior",
+            "name": "Frontend"
+        },
+        {
+            "keywords": [
+                "React"
+            ],
+            "level": "Intermediate",
+            "name": "Frontend"
+        },
+        {
+            "keywords": [
+                "Vue"
+            ],
+            "level": "Beginner",
+            "name": "Frontend"
+        },
+        
+        {
+            "keywords": [
+                "Node.js",
+                "Python",
+                "Django / Django REST",
+                "Flask"
+            ],
+            "level": "Senior",
+            "name": "Backend"
+        },
+        {
+            "keywords": [
+                "Rails",
+                "Serverless"
+            ],
+            "level": "Intermediate",
+            "name": "Backend"
+        },
+        {
+            "keywords": [
+                "AWS Suite"
+            ],
+            "level": "Senior",
+            "name": "DevOps"
+        },
+        {
+            "keywords": [
+                
+            "Docker",
+            "Vagrant"
+
+            ],
+            "level": "Senior",
+            "name": "Environmental tools"
+        },
+        {
+            "keywords": [
+                
+            "Make",
+            "Rake"
+
+            ],
+            "level": "Senior",
+            "name": "Build tools"
+        },
+        {
+            "keywords": [
+                
+            "Jest",
+            "Nose"
+
+            ],
+            "level": "Senior",
+            "name": "Testing tools"
+        },
+        {
+            "keywords":  [
+                "Mocha", 
+                "Pyunit"
+            ],
+            "level": "Intermediate",
+            "name": "Testing tools"
+        },
+        {
+            "keywords": [
+                
+            "Gitlab"
+
+            ],
+            "level": "Senior",
+            "name": "CI/CD tools"
+        },
+        {
+            "keywords": [
+                
+            "Jenkins"
+
+            ],
+            "level": "Intermediate",
+            "name": "CI/CD tools"
+        },
+        {
+            "keywords": [
+                "git",
+                "Bash",
+                "General Linux system administration (I use Arch btw)",
+                "Adobe suite"
+            ],
+            "level": "Senior",
+            "name": "Misc"
+        }
+    ],
+    "work": [
+        {
+            "summary": "The Danish Blood Donor Study (DBDS) is a research project that carries out research on blood and plasma samples of blood donors in Denmark. I've worked with several data managers and lab admins part of DBDS to create a new, modern web application and database for lab personnel to simplify management and administration of blood samples, and keep track of more information than the current MSAccess database can. \n\n The system currently keeps track of about 12 million blood/plasma samples and provides full audit trails about all edits, shipments, and aliquots of samples. It is also robust and lightweight, allowing lab personnel to very quickly scan sample barcodes whilst maintaing strict rules for valid sample IDs and uniqueness in the database.",
+            "website": "https://bloddonor.dk/",
+            "pinned": true,
+            "name": "Danish Blood Donor database",
+            "location": "Copenhagen",
+            "position": "Lead developer & Project manager",
+            "startDate": "2021-05-01",
+            "highlights": [
+                "AngularJS / Angular",
+                "Flask",
+                "Docker / AWS",
+                "Postgres"
+            ]
+        },
+        {
+            "summary": "FOREVER is a collaboration project between The University of Copenhagen and Synoptik which has several aims: \n - To identify risk factors and predictors of visual disabilities \n - To identify risk factors of systemic conditions to prevent life-threatening diseases and to increase the quality of life \n - To validate the current eye health check in Synoptik A/S to optimise their collaboration with ophthalmologists in Denmark in the fight against sight-threatening eye diseases",
+            "website": "https://forever.ku.dk/",
+            "pinned": true,
+            "name": "FOREVER",
+            "position": "Lead developer & Project manager",
+            "startDate": "2021-10-21",
+            "highlights": [
+                "AngularJS",
+                "Django REST",
+                "Docker / AWS",
+                "Postgres"
+            ]
+        },
+        {
+            "summary": "INNODIA is an eCRF, clinical trial platform aimed at evaluating clinical data from individuals with newly diagnosed type 1 diabetes as well as those who are predisposed to developing T1D.",
+            "website": "https://www.innodia.eu/",
+            "pinned": true,
+            "name": "INNODIA",
+            "location": "Copenhagen",
+            "position": "Full stack developer",
+            "startDate": "2020-06-01",
+            "highlights": [
+                "AngularJS",
+                "Flask",
+                "Docker / AWS",
+                "Postgres"
+            ]
+        },
+        {
+            "summary": "Procedural provides a design, QA, and environmental systems content management system for tracking sustainability metrics and documentation for sustainability certifications in engineering projects across the EU and UK. \n Procedural also exposes various components of this system through an API so that others can quickly build custom applications matching their needs.",
+            "website": "https://www.procedural.build/",
+            "name": "Procedural Build",
+            "position": "Full stack developer",
+            "startDate": "2019-05-01",
+            "endDate": "2020-06-01",
+            "highlights": [
+                "React",
+                "Django REST",
+                "Docker / AWS",
+                "Postgres"
+            ]
+        },
+        {
+            "highlights": [
+                "Node.js",
+                "Django"
+            ],
+            "summary": "Part time student assistant role where I helped the CTO with ad-hoc tasks relating to their Django admin management interface and some 'bells and whistles' JS components for the custom built, in-house video player.",
+            "website": "https://www.veo.co/",
+            "name": "VEO",
+            "position": "Student assistant",
+            "startDate": "2019-01-01",
+            "endDate": "2019-05-01"
+        },
+        {
+            "highlights": [
+                "Python / TKinter",
+                "Shell"
+            ],
+            "summary": "Created a simple, re-usable algorithm to calculate material costs, generate model numbers, descriptions, and overall weights of various HVAC systems with varying components. This algorithm is dynamic, and allows for an ever growing data set of component types inside of the HVAC systems that Johnson Controls produces",
+            "website": "https://www.johnsoncontrols.com/",
+            "name": "Johnson Controls (formerly Triatek)",
+            "position": "Freelance developer",
+            "startDate": "2018-11-01",
+            "endDate": "2019-01-01"
+        }
+    ],
+    
+    "languages": [{
+        "language": "English",
+        "fluency": "Native"
+      },
+      {
+        "language": "Lithuanian",
+        "fluency": "Fluent"
+      },
+      {
+        "language": "Danish",
+        "fluency": "Intermediate"
+      }],
+    "interests": [
+        {
+            "name": "Urban agriculture & Foraging"
+        },
+        {
+            "name": "Fermentation"
+        },
+        {
+            "name": "Fishing"
+        },
+        {
+            "name": "Woodworking"
+        },
+        {
+            "name": "Beer (Primarily drinking, but also brewing and characteristics)"
+        },
+        {
+            "name": "Board games and game design"
+        }
+    ]
+}
