@@ -43,14 +43,6 @@
         },
         {
             "keywords": [
-                "Rails",
-                "Serverless"
-            ],
-            "level": "Intermediate",
-            "name": "Backend"
-        },
-        {
-            "keywords": [
                 "Angular / AngularJS",
                 "Javascript / Typescript",
                 "HTML / JSX",
@@ -93,47 +85,22 @@
         {
             "keywords": [
                 
-            "Make",
-            "Rake"
-
-            ],
-            "level": "Senior",
-            "name": "Build tools"
-        },
-        {
-            "keywords": [
-                
             "Jest",
-            "Nose"
+            "Nose",
+            "Pyunit"
 
             ],
             "level": "Senior",
             "name": "Testing tools"
         },
         {
-            "keywords":  [
-                "Mocha", 
-                "Pyunit"
-            ],
-            "level": "Intermediate",
-            "name": "Testing tools"
-        },
-        {
             "keywords": [
                 
-            "Gitlab"
-
-            ],
-            "level": "Senior",
-            "name": "CI/CD tools"
-        },
-        {
-            "keywords": [
-                
+            "Gitlab",
             "Jenkins"
 
             ],
-            "level": "Intermediate",
+            "level": "Senior",
             "name": "CI/CD tools"
         },
         {
@@ -149,7 +116,7 @@
     ],
     "work": [
         {
-            "summary": "The Danish Blood Donor Study (DBDS) is a research project that carries out research on blood and plasma samples of blood donors in Denmark. I've worked with several data managers and lab admins part of DBDS to create a new, modern web application and database for lab personnel to simplify management and administration of blood samples, and keep track of more information than the current MSAccess database can. \n\n The system currently keeps track of about 12 million blood/plasma samples and provides full audit trails about all edits, shipments, and aliquots of samples. It is also robust and lightweight, allowing lab personnel to very quickly scan sample barcodes whilst maintaing strict rules for valid sample IDs and uniqueness in the database.",
+            "summary": "The Danish Blood Donor Study (DBDS) is a research project that carries out research on blood and plasma samples of blood donors in Denmark. I've worked with several data managers and lab admins part of DBDS to create a new, modern web application and database for lab personnel to simplify management and administration of blood samples, and keep track of more information than the current MSAccess database can. \n\n The system currently keeps track of about 2.5 million active blood/plasma samples used for research and provides full audit trails about all edits, shipments, and aliquots of samples. It is also robust and lightweight, allowing lab personnel to very quickly scan sample barcodes whilst maintaing strict rules for valid sample IDs and ensuring uniqueness in the database.",
             "website": "https://bloddonor.dk/",
             "pinned": true,
             "name": "Danish Blood Donor database",
@@ -258,7 +225,7 @@
             "name": "Woodworking"
         },
         {
-            "name": "Beer (Primarily drinking, but also brewing and characteristics)"
+            "name": "Beer"
         },
         {
             "name": "Board games and game design"

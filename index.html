@@ -33,6 +33,7 @@
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" integrity="sha384-pzjw8f+ua/C8HRpN/2jjtGCIkPoy4Mj8XQFMAjwfyUq8AStVbC4mf3c5R2eXcc3" crossorigin="anonymous">
 
   </head>
 <!-- Google tag (gtag.js) -->
@@ -128,17 +129,6 @@
                 </div>
             </div>
           </div>
-
-          <!-- <div class="col-xl-3 mb-3 mb-md-0">
-              <div class="card py-4 h-100">
-                <div class="card-body text-center">
-                  <i class="fas fa-phone"></i>
-                  <h4 class="text-uppercase m-0" style=" color: #007bff;">Phone</h4>
-                  <p style="padding-top: 1em;" >+45 91 sixfour six four 68</p>
-              </div>
-            </div>
-          </div>  -->
-            
             <a href="https://www.linkedin.com/in/christopher-m%C3%B8ller-595782128/" class="col-xl-4 mb-4 mb-md-0">
               <div class="card py-4 h-100">
                 <div class="card-body text-center">
@@ -169,37 +159,39 @@
     <!-- Projects Section -->
     <section id="projects" class="projects-section bg-light">
         <h3 style="text-align: center;">My Projects</h3>
+        <hr class="my-4">
 
-        <!-- Project One Row -->
+        <!-- Project -->
         <div class="row">
 
           <div class="w3-content w3-display-container">
              <div class="col-xl-10 col-lg-5" id="project-text">
                  <div class="featured-text text-center text-lg-left">
                   <h4>Danish Blooddonor Database</h4>
-                  <p class="text-black-50 mb-0">A web application with the goal of replacing an existing MS Access database which allows researchers and lab personnel create, track, and manage all blood and plasma samples across Denmark.</p>
+                  <p class="text-black-50 mb-0">A web application with the goal of replacing an existing MS Access database which allows researchers and lab personnel create, track, and manage all blood and plasma samples used for research across Denmark.</p>
                   <ul>
-                    <li>Built using Flask, Angular, Postgres</li>
-                    <li>The system currently handles 12 million blood samples within hundreds of thousands of boxes.</li>
+                    <li>Built using Flask, Angular / AngularJS, Postgres</li>
+                    <li>The system currently handles 2.5 million active blood/plasma samples used for research purposes.</li>
                     <li>Speed and performance are essential, as lab personnel are scanning hundreds of samples per minute; all sample IDs in this system must adhere to strict rules depending on the type of sample, their location/region, and must be unique in the system.</li>
-                    <li>Historic data about when and where samples were scanned, sent, and aliquoted for research is also an important requirement of the system, so all transactions in the database are logged to provide the relevant data for audits.</li>
+                    <li>Historic data about when and where samples were scanned, shipped/received, and aliquoted for research is also an important requirement of the system, so all transactions in the database are logged to provide the relevant data for audits.</li>
                   </ul>
                 </div>
                </div>
            </div>
          </div>
 
+         <hr class="my-4">
 
-   <!-- Project One Row -->
+   <!-- Project -->
    <div class="row">
 
     <div class="w3-content w3-display-container">
        <div class="col-xl-10 col-lg-5" id="project-text">
            <div class="featured-text text-center text-lg-left">
-            <h4>FOREVER</h4>
-            <p class="text-black-50 mb-0">A project done in collaboration between Københavns Universitet and Synoptik, creating a centalized web application for optometrists to evaluate and diagnose eye exams of patients.</p>
+            <h4>FOREVER <a href="https://forever.ku.dk/"><i class="fas fa-link"></i></a></h4>
+            <p class="text-black-50 mb-0">A project in collaboration between Københavns Universitet and Synoptik, creating a centalized web application for optometrists to evaluate and diagnose eye exams of patients.</p>
             <ul>
-              <li>Built using Django, Angular, Postgres.</li>
+              <li>Built using Django, Angular / AngularJS, Postgres.</li>
               <li>The system handles and displays all data as well as Dicom, OCT, and perimetry images for eye exams conducted on patients in the FOREVER study.</li>
               <li>The goal is to allow optometrists to evaluate these examinations separately from Synoptik, to see if the evaluation conclusions from Synoptik and the optometrists are aligned, thus allowing for more accurate diagnoses of overall eye health of patients.</li>
             </ul>
@@ -207,6 +199,25 @@
          </div>
      </div>
    </div>
+   <hr class="my-4">
+
+      <!-- Project -->
+      <div class="row">
+
+        <div class="w3-content w3-display-container">
+           <div class="col-xl-10 col-lg-5" id="project-text">
+               <div class="featured-text text-center text-lg-left">
+                <h4>INNODIA <a href="https://www.innodia.eu/"><i class="fas fa-link"></i></a></h4>
+                <p class="text-black-50 mb-0">A project in collaboration between Københavns Universitet and Synoptik, creating a centalized web application for optometrists to evaluate and diagnose eye exams of patients.</p>
+                <ul>
+                  <li>Built using Flask, AngularJS, Postgres.</li>
+                  <li>INNODIA is an eCRF, clinical trial platform aimed at evaluating clinical data from individuals with newly diagnosed type 1 diabetes as well as those who are predisposed to developing T1D.</li>
+                </ul>
+              </div>
+             </div>
+         </div>
+       </div>
+       <hr class="my-4">
 
         <div class="row" >
           
@@ -241,6 +252,7 @@
               </div>
         </div>
       </div>
+      <hr class="my-4">
 
         <!-- Project One Row -->
         <div class="row">
@@ -264,6 +276,7 @@
               </div>
           </div>
         </div>
+        <hr class="my-4">
 
         <div class="row">
 
@@ -299,7 +312,8 @@
 
 
 
-        
+        <hr class="my-4">
+
       <div class="row">
 
         <div class="w3-content w3-display-container">
@@ -326,19 +340,6 @@
              </div>
          </div>
        </div>
-
-       <!-- <div class="row"> -->
-
-        <!-- <div class="w3-content w3-display-container">
-            <div class="col-xl-10 col-lg-5" id="project-text">
-                <div class="featured-text text-center text-lg-left">
-                <h4>NEMID Clone</h4>
-                <p class="text-black-50 mb-0">A simple web application built for my 'System Integration' course. The primary goal was to create two servers made in two different languages (Node.js/Python Flask) which communicate with the client in different datatypes (JSON/XML) and get data from different data stores(SQLITE/TextFile)</p>
-              </div>
-            </div>
-        </div> -->
-
-
     </section>
    
   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
