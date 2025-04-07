@@ -1,6 +1,6 @@
 {
     "meta": {
-        "theme": "elegant"
+        "theme": "eloquent"
     },
     "basics": {
         "name": "Christopher Møller",
@@ -220,9 +220,6 @@
         },
         {
             "name": "Fishing"
-        },
-        {
-            "name": "Woodworking"
         },
         {
             "name": "Beer"
