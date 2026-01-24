@@ -4,11 +4,11 @@
     },
     "basics": {
         "name": "Christopher Møller",
-        "label": "Full stack developer",
+        "label": "Senior software engineer",
         "image": "https://christophermoller.com/img/ClippedCirclePhoto.png",
-        "summary": "I am a Lithuanian/Danish full stack developer with an affinity to all things backend. However, I do enjoy frontend development as well (especially when there is a UI/UX designer providing specs! ). \n\n I currently work at the University of Copenhagen in the Center for Protein Research as an 'IT Officer'. I'm still not sure what that means, but, I help researchers, postdocs, PHD and master students with code and believe it or not, printers too! \n\n I also work on various medical web applications which collect, analyze, and output data.",
+        "summary": "I am a Lithuanian/Danish full stack developer with an affinity to all things backend. However, I do enjoy frontend development as well (especially when there is a UI/UX designer providing specs! ). \n\n I currently work at Danske Bank in the Mainframe Platform, creating modern web-applications for mainframe developers to streamline and improve their workflow. Primarly using Terraform, Kubernetes, .NET/C#, and React.",
         "website": "https://christophermoller.com",
-        "email": "ChristopherOMoeller@gmail.com",
+        "email": "<MyFirstName>OMoeller@gmail.com",
         "location": {
             "city": "Copenhagen",
             "countryCode": "DK"
@@ -36,7 +36,8 @@
                 "Node.js",
                 "Python",
                 "Django / Django REST",
-                "Flask"
+                "Flask",
+                ".NET/C#"
             ],
             "level": "Senior",
             "name": "Backend"
@@ -123,6 +124,7 @@
             "location": "Copenhagen",
             "position": "Lead developer & Project manager",
             "startDate": "2021-05-01",
+            "endDate": "2024-06-01",
             "highlights": [
                 "AngularJS / Angular",
                 "Flask",
@@ -137,6 +139,7 @@
             "name": "FOREVER",
             "position": "Lead developer & Project manager",
             "startDate": "2021-10-21",
+            "endDate": "2024-01-01",
             "highlights": [
                 "AngularJS",
                 "Django REST",
@@ -152,6 +155,7 @@
             "location": "Copenhagen",
             "position": "Full stack developer",
             "startDate": "2020-06-01",
+            "endDate": "2024-08-01",
             "highlights": [
                 "AngularJS",
                 "Flask",
@@ -213,16 +217,10 @@
       }],
     "interests": [
         {
-            "name": "Urban agriculture & Foraging"
-        },
-        {
-            "name": "Fermentation"
+            "name": "Gardening // Growing food // Foraging"
         },
         {
             "name": "Fishing"
-        },
-        {
-            "name": "Beer"
         },
         {
             "name": "Board games and game design"
